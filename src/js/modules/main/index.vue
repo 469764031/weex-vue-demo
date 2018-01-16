@@ -4,7 +4,7 @@
   </div>
 </template>
 <script>
-  import bundleUrl from "./js/urlpath";
+  import bundleUrl from "../../components/urlpath";
   export default{
     data(){
       return {

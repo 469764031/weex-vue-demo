@@ -24,8 +24,7 @@
 </template>
 
 <script>
-  import units  from './js/units';
-  import Router from 'vue-router';
+  import units from '../../components/units'
   export default {
     data(){
       return {
