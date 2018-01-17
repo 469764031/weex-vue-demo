@@ -45,9 +45,10 @@
       },
       login: function () {
         if (this.tel == "18252021258" && this.password == "111111") {
-          alert("登录成功");
+          this.jump('/main');
+          //alert("登录成功");
         } else {
-          alert("登录失败")
+          //alert("登录失败")
         }
       },
       onNameinput: function (e) {
